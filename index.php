@@ -57,5 +57,12 @@
 		<li><a href="lab3/site/index.php?id=calc">site/?id=calc</a> — калькулятор внутри сайта</li>
 		<li><a href="lab3/calculator.php">calculator.php</a> — отдельный калькулятор</li>
 	</ul>
+	<h2>Лабораторная работа №5. Работа с файлами. Загрузка файлов на сервер</h2>
+	<ul>
+		<li><a href="lab5/file.php">file.php</a> — гостевая книга (запись в файл)</li>
+		<li><a href="lab5/upload.php">upload.php</a> — загрузка файлов на сервер</li>
+		<li><a href="lab5/upload/index.php">upload/index.php</a> — галерея изображений</li>
+		<li><a href="lab3/site/index.php?id=contact">site/?id=contact</a> — форма обратной связи (email)</li>
+	</ul>
 </body>
 </html>
