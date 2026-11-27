@@ -3,7 +3,7 @@ declare(strict_types=1);
 
 /* ЗАДАНИЕ 1 */
 $now      = time();
-$birthday = mktime(0, 0, 0, 8, 15, 2005);   // свой день рождения
+$birthday = mktime(0, 0, 0, 8, 15, 2005);   // ← замени на свой день рождения
 $hour     = getdate()['hours'];
 
 /* ЗАДАНИЕ 2 */
@@ -31,7 +31,6 @@ $fmt = new IntlDateFormatter(
 );
 $today = datefmt_format($fmt, $now);
 
-// Ближайший день рождения: в этом году, а если прошёл — в следующем
 $bday = mktime(0, 0, 0, (int)date('n', $birthday), (int)date('j', $birthday), (int)date('Y', $now));
 if ($bday < $now) {
     $bday = mktime(0, 0, 0, (int)date('n', $birthday), (int)date('j', $birthday), (int)date('Y', $now) + 1);
@@ -52,8 +51,8 @@ $seconds = $diff % 60;
 </head>
 <body>
 	<h1>Использование функций даты и времени</h1>
-	<p><?= $welcome ?></p>
-	<p><?= e($today) ?></p>
+	<p><?= htmlspecialchars($welcome, ENT_QUOTES, 'UTF-8') ?></p>
+	<p><?= htmlspecialchars($today, ENT_QUOTES, 'UTF-8') ?></p>
 	<p>До моего дня рождения осталось: <b><?= $days ?> д. <?= $hours ?> ч. <?= $minutes ?> мин. <?= $seconds ?> сек.</b></p>
 </body>
 </html>
