@@ -15,14 +15,14 @@
 		a:hover { color: #777bb4; }
 		code { background: #eef; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
 	</style>
-1</head>
+</head>
 <body>
 	<h1>Лабораторные работы по PHP</h1>
 	
 	<h2>Лабораторная работа №1. Знакомство с PHP</h2>
 	<ul>
 		<li><a href="lab1/phpinfo.php">phpinfo.php</a> — информация о сервере</li>
- is		<li><a href="lab1/vars.php">vars.php</a> — переменные и типы</li>
+ 		<li><a href="lab1/vars.php">vars.php</a> — переменные и типы</li>
 		<li><a href="lab1/if.php">if.php</a> — конструкция if-elseif-else</li>
 		<li><a href="lab1/switch.php">switch.php</a> — конструкция switch</li>
 		<li><a href="lab1/match.php">match.php</a> — конструкция match (PHP 8+)</li>
