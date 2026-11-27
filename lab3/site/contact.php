@@ -11,7 +11,7 @@
 
   <header>
     <!-- Верхняя часть страницы -->
-    <img src="logo.png" width="130" height="80" alt="Наш логотип" class="logo">
+    <img src="img/elephant.png" width="130" height="80" alt="Наш логотип" class="logo">
     <span class="slogan">приходите к нам учиться</span>
     <!-- Верхняя часть страницы -->
   </header>
