@@ -48,5 +48,14 @@
 		<li><a href="lab3/functions.php">functions.php</a> — функции по модулям</li>
 		<li><a href="lab3/site/index.php">site/index.php</a> — макет сайта</li>
 	</ul>
+	<h2>Лабораторная работа №4. Обработка форм</h2>
+	<ul>
+		<li><a href="lab3/site/index.php">site/index.php</a> — макет сайта с GET-параметрами</li>
+		<li><a href="lab3/site/index.php?id=about">site/?id=about</a> — страница «О нас»</li>
+		<li><a href="lab3/site/index.php?id=contact">site/?id=contact</a> — страница «Контакты»</li>
+		<li><a href="lab3/site/index.php?id=table">site/?id=table</a> — таблица с POST-формой</li>
+		<li><a href="lab3/site/index.php?id=calc">site/?id=calc</a> — калькулятор внутри сайта</li>
+		<li><a href="lab3/calculator.php">calculator.php</a> — отдельный калькулятор</li>
+	</ul>
 </body>
 </html>
