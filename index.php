@@ -40,5 +40,13 @@
 		<li><a href="lab2/gettable.php">gettable.php</a> — функция с параметрами по умолчанию</li>
 		<li><a href="lab2/getmenu.php">getmenu.php</a> — функция отрисовки меню</li>
 	</ul>
+	<h2>Лабораторная работа №3. Встроенные функции</h2>
+	<ul>
+		<li><a href="lab3/strings.php">strings.php</a> — функции обработки строк</li>
+		<li><a href="lab3/date.php">date.php</a> — функции даты и времени</li>
+		<li><a href="lab3/constants.php">constants.php</a> — все константы PHP</li>
+		<li><a href="lab3/functions.php">functions.php</a> — функции по модулям</li>
+		<li><a href="lab3/site/index.php">site/index.php</a> — макет сайта</li>
+	</ul>
 </body>
 </html>
