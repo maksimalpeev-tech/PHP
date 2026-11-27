@@ -15,7 +15,7 @@
 		a:hover { color: #777bb4; }
 		code { background: #eef; padding: 2px 6px; border-radius: 4px; font-size: 0.9em; }
 	</style>
-</head>
+ </head>
 <body>
 	<h1>Лабораторные работы по PHP</h1>
 	
