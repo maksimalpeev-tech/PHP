@@ -39,10 +39,10 @@ $emailOk = filter_var($email, FILTER_VALIDATE_EMAIL) !== false; // true
 </head>
 <body>
 	<h1>Функции обработки строк</h1>
-	<p>Логин после trim+strtolower: <b><?= e($login) ?></b></p>
-	<p>Пароль «<?= e($password) ?>» сложный: <b><?= $strong ? 'да' : 'нет' ?></b></p>
-	<p>Имя с большой буквы: <b><?= e($name) ?></b></p>
+	<p>Логин после trim+strtolower: <b><?= htmlspecialchars($login, ENT_QUOTES, 'UTF-8') ?></b></p>
+	<p>Пароль «<?= htmlspecialchars($password, ENT_QUOTES, 'UTF-8') ?>» сложный: <b><?= $strong ? 'да' : 'нет' ?></b></p>
+	<p>Имя с большой буквы: <b><?= htmlspecialchars($name, ENT_QUOTES, 'UTF-8') ?></b></p>
 	<p>Email корректный: <b><?= $emailOk ? 'да' : 'нет' ?></b></p>
-	<p>Значение $code как в коде: <b><?= e($code) ?></b></p>
+	<p>Значение $code как в коде: <b><?= htmlspecialchars($code, ENT_QUOTES, 'UTF-8') ?></b></p>
 </body>
 </html>
